@@ -121,7 +121,7 @@ def game_loop():
             head.append(snake_x)
             head.append(snake_y)
             snk_list.append(head)
-
+# If Operations
             if len(snk_list)>snk_length:
                 del snk_list[0]
 
